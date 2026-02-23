@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+/* --- Heroセクションのスタイル例 --- */
+.hero {
+  height: 420px;
+  background-image: url('../images/hero.webp');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  border-bottom: 6px solid #f4f4f4;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  border: none; /* 見出しの線を消す */
+  margin-bottom: 10px;
+  color: white; /* hero内だけ白文字 */
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.15);
+}
+
+.hero-content {
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+
