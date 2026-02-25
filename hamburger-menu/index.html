@@ -9,35 +9,26 @@
   <h1>街づくりラボ &nbsp; ASOBI-X</h1>
 
   <!-- メニューを閉じる -->
-  <nav class="nav">
+  <nav>
     <button class="nav-close" aria-label="メニューを閉じる"></button>
-  <!-- liはnavを挿入 -->
-        <ul>
-            <li><a href="#about">ASOBI-Xとは</a></li>
-            <li><a href="#activity">活動内容</a></li>
-            <li><a href="#news">お知らせ</a></li>
-            <li><a href="#contact">お問い合わせ</a></li>
-        </ul>
-    </nav>
-<!-- これは通常のnavの仕様 -->
-    <nav>
-        <ul id="navMenu">
-            <li><a href="#about">ASOBI-Xとは</a></li>
-            <li><a href="#activity">活動内容</a></li>
-            <li><a href="#news">お知らせ</a></li>
-            <li><a href="#contact">お問い合わせ</a></li>
-        </ul>
-<!-- navにハンバーガーを置く設定 -->
-        <button class="hamburger" id="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
 
-    </nav>
-</header>
+  <!-- これは通常のnavの仕様 -->
+    <ul id="navMenu">
+      <li><a href="#about">Home</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#access">Access</a></li>
+    </ul>
 
-    <!--- JavaScript部分 --->
+  <!-- navにハンバーガーを置く設定 -->
+    <button class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+<!--- JavaScript部分 --->
   <!-- ハンバーガーとTOPへ戻る部分のjavascript -->
   <script>
   const hamburger = document.getElementById("hamburger");
